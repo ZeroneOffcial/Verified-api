@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zerone Official</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Loading -->
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Zerone<span>Script</span></div>
+    <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero"><i class="fas fa-globe"></i></a></li>
+      <li><a href="https://websitekita.vercel.app" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+      <li><a href="https://t.me/ZeroneOfficial" target="_blank"><i class="fab fa-telegram"></i></a></li>
+      <li><a href="https://www.youtube.com/@ZeroOffc" target="_blank"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <h1><span id="typing"></span></h1>
+    <p>Tempat download script bot gratis & update terbaru 🚀</p>
+    <a href="#scripts" class="btn-scroll">Lihat Script</a>
+  </header>
+
+  <!-- Scripts -->
+  <section id="scripts">
+    <h2>Daftar Script</h2>
+    <div class="script-list" id="script-list"></div>
+  </section>
+
+  <!-- Detail Script -->
+  <section id="script-detail" class="hidden">
+    <button class="back-btn" onclick="goBack()"><i class="fas fa-arrow-left"></i> Kembali</button>
+    <div id="detail-content"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Zerone Official. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://https://websitekita.vercel.app"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://t.me/ZeroneOfficial"><i class="fab fa-telegram"></i></a>
+      <a href="https://www.youtube.com/@ZeroOffc"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
