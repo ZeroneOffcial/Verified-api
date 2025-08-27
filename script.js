@@ -20,7 +20,7 @@ new Typed("#typing", {
 
 // Load scripts.json
 let allScripts = [];
-fetch("scripts.json")
+fetch("/scripts.json")
   .then(res => res.json())
   .then(data => {
     allScripts = data;
