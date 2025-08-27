@@ -1,83 +1,16 @@
 [
   {
-    "wa bot", 
-  "title": "Script Hoshino MD V1",
-  "desc": "New Script Hoshino Takanashi, Support lid dan jid, size ringan support whatsapp bussiness dan whatsapp ori", 
-  "image": "https://files.catbox.moe/r7kyog.jpg",
-  "link": " https://www.mediafire.com/file/fqtl76tu7pluez2/Hoshino+MD.zip/file"
+    "id": "wa-bot",
+    "name": "Bot WhatsApp Free",
+    "desc": "Bot WhatsApp simple + fitur menu",
+    "thumbnail": "https://files.catbox.moe/8es5ms.jpeg",
+    "link": "https://example.com/bot-wa.zip"
   },
   {
-   "title": "Source Landing page Store", 
-   "desc": "Ubah Cara Jualan Mu Lebih Keren Dengan Menggunakan Source Code Store Ini",
-   "image": "https://files.catbox.moe/x6sv7z.jpg", 
-   "link": "https://www.mediafire.com/file/pcp9kqdba3x72mo/indexstore.html/file"
-  },
-  {
-    "id": "scriptA",
-    "title": "Script Nine Assistant",
-    "desc": "Script bot gratis dengan fitur ratusan bahkan ribuan, cocok buat pushkontak dan jaga group, download now",
-    "image": "https://files.catbox.moe/y43z5k.jpg",
-    "link": "https://www.mediafire.com/file/xvozeb7b1s5ijk6/SC_NINE_ASSISTANT.zip/file"
-  },
-  {
-    "title": "Script Changli Fix Group",
-    "desc": "Script Bot Changli Fix Group, Work Buat Group",
-    "image": "https://files.catbox.moe/xvp1uf.png",
-    "link": "https://www.mediafire.com/file/j8l59bbojyyu3qq/Changli+Update+Fix+Group+@lid.zip/file"
-  },
-  {
-    "id": "scriptB",
-    "title": "Script Changli Assistant",
-    "desc": "Script bot gratis, Fitur : Createweb Createsc dll, download now",
-    "image": "https://qu.ax/DwJuV.jpg",
-    "link": "https://www.mediafire.com/file/6r5vv3wz4rq80mn/neo+flare+v3.zip/file"
-  },
-  {
-    "id": "script",
-    "title": "Script Syafira New",
-    "desc": "script bot gratis, fitur : review sendiri malas yapping",
-    "image": "https://files.catbox.moe/7lq74e.jpg",
-    "link": "https://www.mediafire.com/file/dt8uujoobroljcj/SyafiraaMD_%25E2%259C%25A8%25F0%259F%259A%2580.zip/file"
-  },
-  {
-    "id": "scriptB",
-    "title": "Script Landing Page Digital",
-    "desc": "Script Landing Page Digital, download now",
-    "image": "https://files.catbox.moe/6qzmmy.jpg",
-    "link": "https://www.mediafire.com/file/7up4dpwowy6x60w/index.html/file"
-  },
-   {
-    "id": "scriptc",
-    "title": "Script Waguri Kaoruko Assistant",
-    "desc": "Script Waguri Assistent Total Fitur Ribuan, Support Node.js V20+ 90% Fitur Work Dan Rest Api Fresh, 99% No Enc",
-    "image": "https://files.catbox.moe/sf1m32.jpeg",
-    "link": "https://www.mediafire.com/file/4ehed9vf9kxhu6l/Waguri_Kaoruko.zip/file"
-  },
-  {
-    "id": "scriptD",
-    "title": "Script Cpanel Telegram",
-    "desc": "Riview Sendiri Males Yapping 🗿",
-    "image": "https://files.catbox.moe/8wlv41.jpeg",
-    "link": "https://www.mediafire.com/file/u2qeub3w6ktduip/Asuka_Cpanel.zip/file"
-  },
-  {
-    "id": "scriptE",
-    "title": "Script Hitori Master",
-    "desc": "Script bot naze bot dengan fitur-fitur ratusan bahkan ribuan, cocok buat jaga group, download now",
-    "image": "https://files.catbox.moe/ztctnk.jpg",
-    "link": "https://www.mediafire.com/file/tsovmifw1jkg6n0/hitori-master.zip/file"
-  },
-  {
-    "id": "",
-    "title": "Script Alya Kujou Fix Group",
-    "desc": "Script Bot Multi Fungsi Yang Sudah Di Perbaiki",
-    "image": "https://raw.githubusercontent.com/NdikzDatabase/Database/main/Database/1755076084030-7qjkdk.jpg",
-    "link" : "https://www.mediafire.com/file/kek5n0x2y6zt2ob/fixGrop(Alya-Chan).zip/file"
-  },
-  {
-    "title": "Script Yoimiya New Update",
-    "desc": "New Update Antilinkgc Dan Group Menu, Sekarang Sudah Support Group",
-    "image": "https://files.catbox.moe/71oxdr.jpg",
-    "link": "https://www.mediafire.com/file/bma7jpf7mg6giy3/YOIMIYA+V10+FIX.zip/file"
+    "id": "tg-bot",
+    "name": "Bot Telegram Free",
+    "desc": "Bot Telegram store base",
+    "thumbnail": "https://files.catbox.moe/8es5ms.jpeg",
+    "link": "https://example.com/bot-tg.zip"
   }
 ]
