@@ -3,31 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ScriptFree - Home</title>
+  <title>ScriptFree</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    /* Loader */
+    #loader {
+      position: fixed;
+      z-index: 9999;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #0f0;
+      font-size: 20px;
+      flex-direction: column;
+    }
+    #loader span {
+      margin-top: 10px;
+    }
+    .hidden { display: none; }
+
+    /* Smooth scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Section style */
+    section {
+      min-height: 100vh;
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #home { background: #101010; color: #0f0; }
+    #scripts { background: #202020; color: #fff; }
+    #contact { background: #303030; color: #fff; }
+
+    nav {
+      position: fixed;
+      top: 10px; right: 10px;
+      background: rgba(0,0,0,0.7);
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+    nav a {
+      margin: 0 8px;
+      color: #0f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
-
-<div id="loader">
-  <div class="spinner"></div>
-</div>
-
 <body>
-  <header>
-    <div class="logo">ScriptFree</div>
-    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
-    <nav>
-      <a href="index.html"><i class="fas fa-home"></i> Home</a>
-      <a href="scripts.html"><i class="fas fa-code"></i> Scripts</a>
-      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
-    </nav>
-  </header>
+  <!-- Loader -->
+  <div id="loader">
+    <i class="fas fa-spinner fa-spin fa-3x"></i>
+    <span>Loading ScriptFree...</span>
+  </div>
 
-  <section>
-    <h1>Selamat Datang di <span class="logo">ScriptFree</span></h1>
-    <div class="typing"></div>
+  <!-- Navbar -->
+  <nav>
+    <a href="#home"><i class="fas fa-home"></i> Home</a>
+    <a href="#scripts"><i class="fas fa-code"></i> Scripts</a>
+    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <h1>Selamat Datang di <span style="color:#0f0">ScriptFree</span></h1>
+    <p>Free & Open Source 💚</p>
   </section>
 
-  <script src="script.js"></script>
+  <!-- Scripts -->
+  <section id="scripts">
+    <h2>Daftar Script Gratis</h2>
+    <ul>
+      <li>🤖 Bot WhatsApp Base</li>
+      <li>🤖 Bot Telegram Store</li>
+      <li>🤖 Panel Pterodactyl</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Developer</h2>
+    <p><i class="fab fa-telegram"></i> <a href="https://t.me/ZeroneOfficial">Telegram</a></p>
+    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/6283840390064">WhatsApp</a></p>
+  </section>
+
+  <script>
+    // Loader hilang setelah page load
+    window.addEventListener("load", function(){
+      document.getElementById("loader").classList.add("hidden");
+    });
+  </script>
 </body>
 </html>
